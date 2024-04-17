@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+}
+
+.container {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+.container-join {
+    background-color: #fff;
+    height: 30%;
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: hsl(218, 22%, 67%);
+}
+
+.container-join h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.container-join h3{
+    color: hsl(71, 73%, 54%);
+}
